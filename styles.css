@@ -168,10 +168,14 @@ input {
 }
 
 .btn-enviar {
-  background-color: rgb(1, 1, 104);
+  background-color: var(--primary-color);
   padding: 18px;
   color: #FFF;
   margin-top: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Ajustes responsivos gerais */
