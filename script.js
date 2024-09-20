@@ -10,3 +10,10 @@ function toggleNavbar() {
     navbar.classList.remove("fixed");  // Remove 'fixed' quando voltar ao topo
   }
 }
+
+const menuToggle = document.querySelector('.fa-bars');
+const navList = document.querySelector('.nav-list');
+
+menuToggle.addEventListener('click', () => {
+  navList.classList.toggle('active');
+});
