@@ -117,7 +117,7 @@ nav i {
 
 /*-------------------------------------- Header Section --------------------------------------*/
 header {
-  background-image: url(./assets/bg-header.png);
+  background-image: url(./assets/bg.png);
   min-height: 85vh;
   background-size: cover;
   background-position: center;
@@ -635,7 +635,7 @@ input {
   background-color: #F5F2F3;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .container-about {
