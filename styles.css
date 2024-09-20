@@ -99,7 +99,7 @@ nav i {
   }
 
   nav i {
-    display: block;
+    display: block!important;
   }
 
   .nav-item {
@@ -361,7 +361,7 @@ input {
 }
 
 .container-img1 {
-  background-color: var(--bg-color);
+  background-color: transparent;
   position: relative;
   width: 300px;
   height: 200px;
@@ -379,7 +379,7 @@ input {
 }
 
 .container-img2 {
-  background-color: #eeeede;
+  background-color: transparent;
   position: relative;
   width: 280px;
   height: 220px;
@@ -399,7 +399,7 @@ input {
 }
 
 .container-img3 {
-  background-color: #eeeede;
+  background-color: transparent;
   position: relative;
   width: 240px;
   height: 235px;
@@ -419,8 +419,7 @@ input {
 }
 
 .btn-contato {
-  background-color: #800000;
-  /* Cor vinho */
+  background-color: var(--primary-color);
   color: white;
   padding: 10px 20px;
   border: none;
@@ -471,7 +470,6 @@ input {
   }
 
   .container-img1 {
-    background-color: #eeeede;
     position: relative;
     width: 190px;
     height: 130px;
@@ -490,7 +488,6 @@ input {
   }
 
   .container-img2 {
-    background-color: #eeeede;
     position: relative;
     width: 180px;
     height: 130px;
@@ -511,7 +508,6 @@ input {
   }
 
   .container-img3 {
-    background-color: #eeeede;
     position: relative;
     width: 150px;
     height: 145px;
